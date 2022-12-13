@@ -1,0 +1,147 @@
+
+
+header{
+    background-color: #0c0e0f;
+    width:100%;
+}
+.nav-wrapper{
+    margin:0px 5%;
+    display:flex;
+    padding:20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo{
+    width:60px;
+} 
+
+.nav-link-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+    flex: 1 1 0%;
+    margin-left: 8rem;
+}
+
+.nav-link-item li a{
+    font-size: 0.8rem;
+    letter-spacing: 0.09375rem;
+    color: rgb(170, 170, 170);
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link-item li a:hover{
+    color:white;
+}
+
+.btn-get-in-touch{
+    display:flex;
+    align-items: center;
+    gap:0.5rem;
+    background: rgb(128, 0, 255);
+    color:white;
+    padding:14px 24px;
+    letter-spacing: 0.1rem;
+    border-radius: 8px;
+}
+
+.txt-whi{
+    color:white;
+}
+
+/* hero styling */
+
+.hero-container{
+ padding:50px 5%;
+}
+.hero-work{
+    font-size: 74px;
+    font-weight: bold;
+    margin-top: 10px;
+    /* color:#016341; */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.hero-intro{
+    font-size: 34px;
+}
+.hero-title{
+    display: inline-block;
+    margin:20px 0px;
+    font-size: 24px;
+}
+.title-desc{
+    color:#a6a8aa;
+    font-size: 18px;
+}
+.button-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.btn-project{
+    border:none;
+    cursor: pointer;
+    padding:14px 24px;
+    background-color: #8100fe;
+    color:white;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.btn-about{
+    background-color: #4353ff;
+    border:none;
+    cursor: pointer;
+    padding:14px 24px;
+    color:white;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.social-handle{
+    display:flex;
+    justify-content: space-between;
+}
+.social-handle ul{
+    list-style-type: none;
+}
+.social{
+    display:flex;
+    flex-direction: column;
+    gap:0.8rem;
+}
+
+.technology-container{
+    margin:20px 0px;
+}
+.tech-title{
+    font-size: 36px;
+    text-align: center;
+}
+.tech-logo{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.resize-img{
+    width:42px;
+}
+
